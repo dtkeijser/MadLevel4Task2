@@ -1,5 +1,9 @@
 package com.example.madlevel4task2.model
 
-enum class Moves {
-    Rock, Paper, Scissors
+ class Moves {
+   companion object{
+       const val ROCK ="ROCK"
+       const val PAPER = "PAPER"
+       const val SCISSORS = "SCISSORS"
+   }
 }

@@ -7,7 +7,7 @@
     tools:context=".ui.HistoryFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/rvHistory"
         android:layout_width="409dp"
         android:layout_height="650dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,5 +25,5 @@
         app:backgroundTint="@color/design_default_color_error"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
+        app:layout_constraintTop_toBottomOf="@+id/rvHistory" />
 </androidx.constraintlayout.widget.ConstraintLayout>

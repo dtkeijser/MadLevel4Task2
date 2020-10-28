@@ -5,7 +5,7 @@ import com.example.madlevel4task2.dao.GameDao
 import com.example.madlevel4task2.database.GameRoomDatabase
 import com.example.madlevel4task2.model.Game
 
-class GameRespository(context: Context) {
+class GameRepository(context: Context) {
     private var gameDao: GameDao
 
     init {
